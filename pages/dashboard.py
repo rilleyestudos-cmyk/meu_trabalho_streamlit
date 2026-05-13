@@ -3,6 +3,13 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
+st.set_page_config(
+    page_title="Dashboard",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 st.title("📊 Dashboard")
 st.markdown("---")
 
